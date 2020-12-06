@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "build": "rollup -c",
+    "prepublish": "yarn build",
     "storybook": "start-storybook -p 6006",
     "storybook:export": "build-storybook",
     "test": "jest",
