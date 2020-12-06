@@ -1,0 +1,19 @@
+{
+  "name": "ton-component-library",
+  "version": "1.0.0",
+  "description": "Biblioteca de componentes React do Ton",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toncabral/ton-component-library.git"
+  },
+  "author": "Ton Cabral",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toncabral/ton-component-library/issues"
+  },
+  "homepage": "https://github.com/toncabral/ton-component-library#readme"
+}
