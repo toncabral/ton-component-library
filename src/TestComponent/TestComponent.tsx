@@ -6,7 +6,7 @@ import './TestComponent.scss'
 
 const TestComponent: React.FC<TestComponentProps> = ({ theme }: TestComponentProps) => (
   <div
-    data-test-id="test-component"
+    data-testid="test-component"
     className={`test-component test-component-${theme}`}
   >
     <h1 className="heading">I'm the test component</h1>
