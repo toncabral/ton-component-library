@@ -4,10 +4,10 @@ module.exports = (componentName) => ({
 
   import { ${componentName}Props } from './${componentName}.types'
 
-  import './${componentName}.scss'
+  import { Container } from './${componentName}.styles'
 
   const ${componentName}: React.FC<${componentName}Props> = ({ foo }) => (
-    <div data-testid="${componentName}" className="foo-bar">{foo}</div>
+    <Container data-testid="${componentName}">{foo}</Container>
   )
 
   export default ${componentName}
