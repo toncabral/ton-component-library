@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Biblioteca de componentes React do Ton",
   "main": "build/index.js",
-  "module": "build/index.es.js",
   "files": [
     "build"
   ],

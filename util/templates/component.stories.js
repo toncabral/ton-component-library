@@ -10,5 +10,5 @@ module.exports = (componentName) => ({
   export const WithBar = () => <${componentName} foo="bar" />
   export const WithBaz = () => <${componentName} foo="baz" />
   `,
-  extension: `.stoies.tsx`
+  extension: `.stories.tsx`
 })

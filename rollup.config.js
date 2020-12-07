@@ -7,19 +7,15 @@ import postcss from 'rollup-plugin-postcss'
 const packageJson = require('./package.json')
 
 export default {
-  input: 'src/index.ts',
+  input: ['src/index.ts', 'src/TestComponent/index.ts'],
   output: [
     {
-      file: packageJson.main,
+      dir: 'build',
       format: 'cjs',
       sourcemap: true
     },
-    {
-      file: packageJson.module,
-      format: 'esm',
-      sourcemap: true
-    }
   ],
+  preserveModules: true,
   plugins: [
     peerDepsExternal(),
     resolve(),
